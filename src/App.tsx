@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
-import { IColaborador } from './compartilhado/interface/IColaborador';
+
+import Banner from './componentes/Banner'
+import { IColaborador } from './compartilhado/interfaces/IColaborador';
 
 function App() {
 
